@@ -4,7 +4,6 @@
 MariaDB: docker run --name test-mariadb -e MYSQL_ROOT_PASSWORD=12345 -p 3306:3306 -d docker.io/library/mariadb:10.3
 
 ## To login to the docker 
-Mysql : docker exec -it test-mysql bash
 MariaDB: docker exec -it test-mariadb bash
 
 ## Once logged enter mysql using
